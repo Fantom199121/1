@@ -1,7 +1,18 @@
-img{
-    padding-left: 25px;
-    position: absolute;
-}   
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+}
+.wrapper{   
+    max-width: 100%; 
+    margin: 0 auto;
+    width: 1170px;
+    background-image: url(../img/head.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 #navbar{
     list-style: none;
     margin: 0px;
@@ -10,8 +21,7 @@ img{
     float: right;
     font-family: Montserrat;
     font-size: 12px;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
 #navbar a{
     text-decoration: none;
@@ -35,6 +45,13 @@ p{
     color: #442a2a;
     text-align: left;
 }
+button{
+    background-color: #39b4af;
+    color: #fff;
+    font-family: Montserrat;
+    padding: 1em 2em;
+}
+
 
     
     
