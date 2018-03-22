@@ -3,6 +3,9 @@ header {
     left: 0;
     right: 0;
 }
+body{
+    margin: 0;
+}
 .wrapper{   
     max-width: 100%; 
     margin: 0 auto;
@@ -70,7 +73,7 @@ button a{
     font-size: 25px;
 }
 .about p{
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
 }
 
