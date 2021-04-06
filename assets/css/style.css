@@ -70,10 +70,6 @@ nav li a {
     color: #0C3E70;
 }
 
-h1 {
-    color: #0C3E70;
-}    
-
 .login {
     margin-left: auto;
 }
@@ -182,7 +178,7 @@ CONTENT
     width: 180px;
     height: 180px;
     float: right;
-    margin-bottom: 30px;
+    margin-top: 282px;
 }
 
 h2 {
