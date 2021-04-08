@@ -81,10 +81,16 @@ nav li a {
 .sign {
     border: 1px solid #42E666;
     border-radius: 10px;
+}
+
+.sign a {
     padding-top: 15px;
     padding-right: 20px;
     padding-bottom: 15px;
     padding-left: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -101,6 +107,39 @@ nav li a {
     background-size: 10px;
     padding-right: 20px;
 }
+
+.has-children ul li a {
+    background-image: none;
+    border: 1px solid #ccc;
+    width: 130px;
+    background: #FFFFFF;
+}
+
+li ul {
+    position: absolute;
+    display: none;
+    margin-left: 50px;
+}
+
+li a {
+    display: block;
+    padding: 5px; 
+    text-decoration: none;
+    border-bottom: none;
+}
+
+li a:hover {
+    color: #5A5A5A;
+}
+
+li:hover ul { 
+    display: block;
+}
+
+.sign:hover a {
+    background: linear-gradient(90deg, #1CD995 0%, #42E666 100%);
+    border-radius: 10px;
+} 
 
 
 /*
@@ -288,6 +327,11 @@ h5 {
     margin-left: 30px;
 }
 
+.box a:hover {
+    background: linear-gradient(90deg, #1CD995 0%, #42E666 100%);
+    border-radius: 10px;
+}
+
 .box-grid {
     display: flex;
 }
@@ -370,6 +414,10 @@ p.john {
     align-items: center;
     text-align: center;
     margin: auto;
+}
+
+.button:hover a {
+     color: #0C3E70;
 }
 
 .block-text-2 a {
@@ -462,7 +510,7 @@ FOOTER
     width: 100%;
 }
 
-.footer p {
+.footer p, ul {
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -490,8 +538,12 @@ a.language {
     padding-left: 30px;
 }
 
-p.language-img {
+ul.language-img {
     margin-right: 0;
+}
+
+.language-img li {
+    margin-left: 0;
 }
 
 .language {
@@ -509,7 +561,41 @@ p.language-img {
     margin-left: 207px;
 }
 
+.nav-footer a:hover {
+    color: #FFFFFF;
+}
+
+.police a:hover {
+    color: #FFFFFF;
+}
+
 .footer {
     background: #5A5A5A;
     height: 80px;
+}
+ 
+.language-img ul {
+    margin-top: -90px;
+    position: absolute; 
+    display: none;
+    margin-left: 25px;
+}
+.language-img a {
+    display: block; 
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.language-img li:hover ul { 
+    display: block;
+}
+
+.language-img ul li a {
+    border: 1px solid #ccc;
+    width: 70px;
+    background: #FFFFFF;
+}
+
+.language-img ul li a:hover {
+   color: #5A5A5A; 
 }
